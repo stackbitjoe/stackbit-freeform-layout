@@ -1,0 +1,11 @@
+type: object
+name: Card
+label: Card
+fields:
+  - type: string
+    name: title
+  - type: model
+    name: image
+    label: Card Image
+    models:
+      - ImageBlock

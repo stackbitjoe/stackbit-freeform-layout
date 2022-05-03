@@ -1,0 +1,7 @@
+type: object
+name: Banner
+label: Banner
+fields:
+  - type: string
+    name: title
+    default: Title

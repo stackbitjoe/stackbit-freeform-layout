@@ -1,0 +1,117 @@
+{
+    "model": "Box",
+    "presets": [
+        {
+            "label": "Cards Two Column",
+            "thumbnail": "images/box-cards-two-column-86e1.png",
+            "metadata": {
+                "categories": [
+                    "Row Layouts"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "type": "Box",
+                "title": "Card Two Column ",
+                "extraLargeWidth": 100,
+                "largeWidth": 100,
+                "mediumWidth": 100,
+                "smallWidth": 100,
+                "Boxes": [
+                    {
+                        "type": "Box",
+                        "title": "Hello Neptune",
+                        "extraLargeWidth": 49,
+                        "largeWidth": 49,
+                        "mediumWidth": 100,
+                        "smallWidth": 100,
+                        "Boxes": [
+                            {
+                                "title": "Hello Uranus",
+                                "image": {
+                                    "url": "/images/uranus.jpg",
+                                    "altText": "Hello Uranus",
+                                    "caption": "Hello Uranus",
+                                    "styles": {
+                                        "self": {
+                                            "opacity": 100
+                                        }
+                                    },
+                                    "type": "ImageBlock"
+                                },
+                                "type": "Card"
+                            }
+                        ],
+                        "display": "flex",
+                        "wrap": "none",
+                        "flexDirection": {
+                            "label": "Row",
+                            "value": "row"
+                        },
+                        "justify": {
+                            "label": "Start",
+                            "value": "start"
+                        },
+                        "align": {
+                            "label": "Start",
+                            "value": "flex-start"
+                        },
+                        "order": 0
+                    },
+                    {
+                        "type": "Box",
+                        "title": "Hello Venus",
+                        "extraLargeWidth": 49,
+                        "largeWidth": 49,
+                        "mediumWidth": 100,
+                        "smallWidth": 100,
+                        "Boxes": [
+                            {
+                                "title": "Hello Neptune",
+                                "image": {
+                                    "url": "/images/neptune.jpg",
+                                    "altText": "Hello Neptune",
+                                    "caption": "Hello Neptune",
+                                    "styles": {
+                                        "self": {
+                                            "opacity": 100
+                                        }
+                                    },
+                                    "type": "ImageBlock"
+                                },
+                                "type": "Card"
+                            }
+                        ],
+                        "display": "flex",
+                        "wrap": "none",
+                        "flexDirection": {
+                            "label": "Row",
+                            "value": "row"
+                        },
+                        "justify": {
+                            "label": "Start",
+                            "value": "start"
+                        },
+                        "align": {
+                            "label": "Start",
+                            "value": "flex-start"
+                        },
+                        "order": 0
+                    }
+                ],
+                "display": "flex",
+                "wrap": "wrap",
+                "flexDirection": {
+                    "label": "Row",
+                    "value": "row"
+                },
+                "justify": "space-between",
+                "align": {
+                    "label": "Start",
+                    "value": "flex-start"
+                },
+                "order": 0
+            }
+        }
+    ]
+}
