@@ -1,6 +1,5 @@
 ---
-title: Home
-layout: PageLayout
+title: This is a new page
 Freeform:
   Boxes:
     - type: Box
@@ -20,6 +19,7 @@ Freeform:
                 url: /images/earth.jpg
                 altText: altText of the image
                 caption: Caption of the image
+                type: ImageBlock
               type: Card
           display: flex
           wrap: wrap
@@ -37,6 +37,7 @@ Freeform:
                 url: /images/mars.jpg
                 altText: altText of the image
                 caption: Caption of the image
+                type: ImageBlock
               type: Card
           display: flex
           wrap: wrap
@@ -54,6 +55,7 @@ Freeform:
                 url: /images/saturn.jpg
                 altText: altText of the image
                 caption: Caption of the image
+                type: ImageBlock
               type: Card
           display: flex
           wrap: wrap
@@ -93,10 +95,11 @@ Freeform:
           flexDirection: row
           justify: space-between
           align: flex-start
+      display: flex
       wrap: wrap
       flexDirection: column
       justify: start
-      display: flex
+      align: null
     - type: Box
       title: Container
       largeWidth: 100
@@ -196,4 +199,5 @@ Freeform:
       flexDirection: row
       justify: space-between
       align: flex-start
+layout: PageLayout
 ---

@@ -4,6 +4,7 @@ label: Card
 fields:
   - type: string
     name: title
+    default: "Sample Card"
   - type: model
     name: image
     label: Card Image

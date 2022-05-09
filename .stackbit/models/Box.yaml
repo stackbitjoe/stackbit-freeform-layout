@@ -17,17 +17,7 @@ fields:
     label: Title
     default: Container
   - type: number
-    label: Extra Large Screen Width
-    name: extraLargeWidth
-    controlType: 'slider'
-    default: 100
-    min: 0
-    max: 100
-    step: 5
-    unit: '%'
-    group: responsive
-  - type: number
-    label: Large Screen Width
+    label: Width on Desktop
     name: largeWidth
     controlType: 'slider'
     default: 100
@@ -37,7 +27,7 @@ fields:
     unit: '%'
     group: responsive
   - type: number
-    label: Medium Screen Width
+    label: Width on Tablet
     name: mediumWidth
     controlType: 'slider'
     default: 100
@@ -47,7 +37,7 @@ fields:
     unit: '%'
     group: responsive
   - type: number
-    label: Small Screen Width
+    label: Width on Mobile
     name: smallWidth
     controlType: 'slider'
     default: 100
@@ -65,6 +55,7 @@ fields:
         - Box
         - Card
         - Banner
+        - ImageBlock
   - type: enum
     name: display
     label: Display
@@ -89,6 +80,7 @@ fields:
     name: flexDirection
     label: Direction
     group: layout
+    default: row
     options: 
       - label: "Row" 
         value: "row"
@@ -102,6 +94,7 @@ fields:
     name: justify
     label: Justify Content
     group: layout
+    default: "space-between"
     options: 
       - label: "Start" 
         value: "start"
@@ -119,6 +112,7 @@ fields:
     name: align
     label: Align Content
     group: layout
+    default: "flex-start"
     options: 
       - label: "Start" 
         value: "flex-start"
@@ -130,7 +124,4 @@ fields:
         value: "stretch" 
       - label: "Baseline" 
         value: "baseline"
-  - type: number
-    name: order
-    label: Column Order
-    group: layout
+

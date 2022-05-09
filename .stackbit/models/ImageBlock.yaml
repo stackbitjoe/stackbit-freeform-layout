@@ -21,11 +21,3 @@ fields:
     label: Caption
     description: The caption of the image
     default: Caption of the image
-  - type: style
-    name: styles
-    styles:
-      self:
-        opacity: '*'
-    default:
-      self:
-        opacity: 100

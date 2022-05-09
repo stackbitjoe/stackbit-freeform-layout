@@ -4,21 +4,19 @@ export const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 300px;
-  grid-template-areas: "image" "text" "stats";
-  border-radius: 18px;
+  grid-template-areas: "image" "text";
+  border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   background-color: #000;
+  margin-bottom: 15px;
 `;
 
 const CardImageStyle = styled.div`
   grid-area: image;
   background-image: url('${(props) => props.background}');
   background-position: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-size: cover;
 `;
 
@@ -28,6 +26,7 @@ export const CardImage = ({ background }) => {
 
 export const CardTextWrapper = styled.div`
   grid-area: text;
+  text-align: center;
   margin: 25px;
 `;
 
@@ -42,7 +41,6 @@ export const CardTextTitle = styled.h2`
 `;
 
 export const CardTextBody = styled.p`
-  color: grey;
   font-size: 15px;
   font-weight: 300;
   color: #fff;

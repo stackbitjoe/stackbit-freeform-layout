@@ -6,10 +6,8 @@ export function getComponent(key) {
 
 const components = {
     'Box': dynamic(() => import('./Box')),
-    'TextBlock': dynamic(() => import('./TextBlock')),
+    'Card': dynamic(() => import('./Card')),
     'ImageBlock': dynamic(() => import('./ImageBlock')),
     'PageLayout': dynamic(() => import('./PageLayout')),
-    'Card': dynamic(() => import('./Card')),
-    'Banner': dynamic(() => import('./Banner')),
-    'Heading': dynamic(() => import('./Elements/Heading'))
+    'Banner': dynamic(() => import('./Banner'))
 };
