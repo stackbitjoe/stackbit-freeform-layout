@@ -10,8 +10,7 @@ module.exports = {
             options: {
                 watch: isDev,
                 sources: [
-                    { name: 'pages', path: path.join(__dirname, 'content/pages') },
-                    { name: 'data', path: path.join(__dirname, 'content/data') }
+                    { name: 'pages', path: path.join(__dirname, 'content/pages') }
                 ]
             }
         },
